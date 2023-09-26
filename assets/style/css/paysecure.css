@@ -1,0 +1,250 @@
+/*Global settings*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root{
+	
+}
+body {
+		font-family: 'DM Sans', sans-serif;
+		background: #F1F1F4;
+		color: #000;
+		font-size: 16px;
+}
+a {
+		color: #5223BC;
+		text-decoration: none;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+hr {
+		opacity: .07;
+}
+/*Typograhy*/
+h1 {
+		font-family: DM Sans;
+		font-size: 2.25rem;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+}
+
+h2 {
+font-family: DM Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.font-mini {
+	font-size: 0.875rem;
+}
+/*Colors and Backgrounds*/
+
+.text-red {
+	color: #ED0006;
+}
+
+.text-green {
+	color: #42BD53;
+}
+
+.text-purple {
+	color: #5223BC;
+}
+
+.bg-orange {
+	background-color: rgba(255, 206, 167, 0.90) !important;
+
+}
+
+
+/*Buttons*/
+
+.btn {
+	border-radius: 0.75rem;
+}
+
+.btn-primary {
+	background: #5223BC;
+	padding-top: 0.85rem;
+	padding-bottom: 0.85rem;
+}
+
+.btn-outline-secondary {
+	border: 1px solid #DADAE2;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary.show {
+	border: 1px solid #75808A;
+	background-color: #fff;
+	color: #75808A;
+}
+
+.dropdown .dropdown-menu {
+		border-radius: 0.9375rem;
+		border: none;
+		box-shadow: 0px 23px 20px 0px rgba(0, 0, 0, 0.05);
+		font-size: 15px;
+}
+.dropdown .dropdown-menu .dropdown-item {
+		font-weight: 500;
+		text-decoration:none;
+}
+.dropdown .dropdown-menu .dropdown-item:active , .dropdown .dropdown-menu .dropdown-item:hover{
+	background-color: #d9c8ff;
+    color: #000;
+}
+.dropdown .dropdown-menu .dropdown-item i {
+		color: #777D84;
+}
+.dropdown .dropdown-menu .dropdown-item:active i , .dropdown .dropdown-menu .dropdown-item:hover i{
+    color: #000;
+}
+
+/*Header*/
+header .dropdown-toggle::after {
+		display: none;
+}
+header .dropdown {
+		background:url("../../images/icons/CaretDown.svg") center right no-repeat;
+		padding-right: 2rem;
+}
+
+/*Footer*/
+/*Sidebar*/
+#sidebar {
+		height: 100vh;
+		justify-content: flex-start;
+		width: 300px;
+}
+#sidebar .nav .nav-item .nav-link {
+		font-weight: 600;
+		color: #000000;
+}
+
+#sidebar .nav .nav-item .nav-link:hover {
+		color: #5223BC !important;
+		text-decoration: none;
+}
+
+#sidebar .nav .nav-item .nav-link.active {
+		border-radius: 0.625rem;
+		background: #D9C8FF;
+		color: #5223BC;
+}
+#sidebar .nav .nav-item .nav-link i {
+		color: #777D84;
+}
+
+
+#sidebar .nav .nav-item .nav-link.active i {
+		color: #5223BC;
+}
+#sidebar ul.sub-nav li {
+		font-size: 15px;
+		margin-bottom: 1rem;
+}
+#sidebar .sidebar-subtitle {
+		font-size: 11px;
+		color: #C4C4C4;
+		text-transform: uppercase;
+}
+#sidebar .nav .collapsible {
+		background: url("../../images/icons/CaretDown.svg") center right no-repeat;
+}
+
+#sidebar.bg-login {
+	background: url("../../images/login-bg.svg") center bottom #5223BC no-repeat;
+	width: 575px;
+}
+
+#sidebar.bg-login .logo {
+	max-width: 205px;
+}
+
+
+/*Main container*/
+main {
+		flex: 1;
+}
+
+main.start {
+	height: 100vh;
+	display: flex;
+  	flex-direction: column;
+}
+/*Forms*/
+
+.form-control {
+	border-radius: 0.75rem;
+	border: 1px solid #DADAE2;
+	background: #FFF;
+}
+
+/*Alerts and badges*/
+/*Cards*/
+.card {
+	border-radius: 0.9375rem;
+	background: #FFF;
+	border: none;
+}
+.card .card-body {
+	padding: 1.5rem;
+}
+
+.card-overdue {
+	background-color: rgba(255, 206, 167, 0.90) !important;
+	
+
+}
+
+.card-error {
+	background: rgba(255, 179, 199, 0.80);
+	
+}
+
+.card-paid {
+	background: rgba(223, 243, 79, 0.70);
+}
+
+.card-expired {
+	background: #DADAE2;
+}
+
+.card-pending {
+	background: #D9C8FF;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #fff #fff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0px none #ffffff;
+  }
+
+  .rightMain-sec{
+	width:100%;
+	height:100%;
+  }
+ 

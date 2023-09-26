@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    /*Typograhy*/
+
+    h1 {
+        font-size: 1.55rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    h2 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+    /*Bonus template*/
+    #bonus .claim-bonus-bar .icon {
+        width: 50px;
+    }
+}

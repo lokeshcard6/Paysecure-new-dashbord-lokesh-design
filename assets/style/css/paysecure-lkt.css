@@ -1,0 +1,187 @@
+.form-group{
+    margin-bottom:20px !important;
+}
+.form-control-py{
+	padding:11px 15px;
+	font-size:14px;
+	line-height:20px;
+	font-weight:400;
+	/* color:#75808A; */
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(235 226 255);
+    border-color:#d9c8ff;
+}
+.form-check-input:checked{
+  background-color:#5223BC;
+  border-color:#5223BC;
+}
+.form-check-input:focus{
+  box-shadow: 0 0 0 0.25rem rgb(235 226 255);
+}
+.form-control-py::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color:#75808A;
+  }
+  .form-control-py::-moz-placeholder { /* Firefox 19+ */
+	color:#75808A;
+  }
+  .form-control-py:-ms-input-placeholder { /* IE 10+ */
+	color:#75808A;
+  }
+  .form-control-py:-moz-placeholder { /* Firefox 18- */
+	color:#75808A;
+  }
+.py-label{
+	text-transform:uppercase;
+	font-size:11px;
+	line-height:14px;
+	font-weight:500;
+	color:#75808A;
+	margin-bottom:8px;
+}
+.emailPage-tst{
+	margin-right:26px;
+  }
+  .emailPage-tst a{
+	display:flex;
+	align-items:center;
+  }
+  .emailPage-tst a:hover{
+	text-decoration:none;
+  }
+  .emailPage-tst a .emailCir-icon{
+	width:34px;
+	height:34px;
+	border-radius:50%;
+	border:1px solid #282826;
+	/* background-color:#010101; */
+	color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	/* margin-right:10px; */
+	filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.05));
+	background-color:#282826;
+  }
+  .emailPage-tst a .emailCir-icon i{
+	font-size: 14px;
+  }
+  .emailPage-tst a span{
+	font-size:14px;
+	line-height:18px;
+	font-weight:500;
+	color:#212529;
+  }
+  .notificationBox{
+	margin-right:26px;
+  }
+  .notificationBox .innerNoti-box {
+	position: relative;
+	cursor: pointer;
+  }
+  .notificationBox .innerNoti-box .notiCircle{
+	position: absolute;
+	top:0;
+	right:0;
+	width:8px;
+	height:8px;
+	background-color:#ED0006;
+	border-radius:50%;
+  }
+  .notificationBox .dropdown-menu{
+	/* padding:12px 20px; */
+	padding:0;
+	/* width: 100%; */
+	margin-top: 20px !important;
+	position: relative;
+	min-width:320px;
+	border-radius: 0.9375rem;
+    border: none;
+    box-shadow: 0px 23px 20px 0px rgba(0, 0, 0, 0.05) ,  0px 23px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+  /* .notificationBox .dropdown-menu::before{
+	content:"";
+	position: absolute;
+	top: -6px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(45deg);
+	filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.05));
+	z-index: -1;
+  } */
+  .notificationBox .dropdown-menu .innerNoti-list{
+	padding:0;
+	margin:0;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li{
+	padding:12px 20px;
+	display: block;
+	border-bottom:1px solid #f2f2f2;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li:last-child{
+	margin-bottom:0px;
+	border-bottom:none;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li .titleName{
+	font-size: 16px;
+    line-height: 20px;
+	font-weight:700;
+	margin-bottom:2px;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li .titlePera{
+	font-size:13px;
+	line-height:16px;
+	font-weight:400;
+	margin-bottom:3px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li .titlePera span:last-child{
+	color:#5223BC;
+	font-weight:600;
+  }
+  .notificationBox .dropdown-menu .innerNoti-list li .dateTime{
+	font-size:12px;
+	line-height:14px;
+	color:#898686;
+  }
+
+  .uploadDrop-file input{
+    display:none;
+  }
+
+
+  .uploadDrop-file label{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    margin-bottom:0;
+    padding: 30px 15px;
+    border:1px dashed #D9C8FF;
+    border-radius:5px;
+    font-size:16px;
+    line-height:24px;
+    font-weight:500;
+    cursor: pointer;
+    text-transform:capitalize;
+    transition:all 0.3s ease-in-out;
+    color:#0F0F0F;
+    
+    background-color:#ECE3FF80;
+  }
+  .uploadDrop-file label i{
+    margin-right:8px;
+    /* color:#000; */
+  }
+  .uploadDrop-file label:hover{
+    background-color:#d9c8ff;
+    /* color:#000; */
+    border-color:#d9c8ff;
+  }
+  .uploadDrop-file label:hover i{
+    /* color:#000; */
+  }
